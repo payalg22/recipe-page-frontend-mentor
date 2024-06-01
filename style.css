@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: hsl(30, 54%, 90%);
     font-family: Outfit;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
 }
@@ -91,9 +91,11 @@ li {
     text-align: justify;
 }
 
-.nutrition table {
+.nutrition > * {
     width: 100%;
+    margin-left: 0;
 }
+
 .nutrition td {
     padding: 15px;
     text-align: left;
